@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="MyApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="MyApp">
+
+    <StackPanel x:Name="root" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="DarkBlue" BorderThickness="2">
+        <TextBlock HorizontalAlignment="Center">Main Window</TextBlock>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="pageOneButton" Click="pageOneButton_Click">Page One</Button>
+            <Button x:Name="pageTwoButton" Click="pageTwoButton_Click">Page Two</Button>
+        </StackPanel>
+
+        <Frame x:Name="myFrame">
+            <StackPanel x:Name="content" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="DarkCyan" BorderThickness="2">
+            </StackPanel>
+        </Frame>
+    </StackPanel>
+</Window>

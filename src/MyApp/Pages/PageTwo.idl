@@ -1,0 +1,9 @@
+namespace MyApp
+{
+    [default_interface]
+    runtimeclass PageTwo : Microsoft.UI.Xaml.Controls.Page
+    {
+        PageTwo();
+        Int32 MyProperty;
+    }
+}
