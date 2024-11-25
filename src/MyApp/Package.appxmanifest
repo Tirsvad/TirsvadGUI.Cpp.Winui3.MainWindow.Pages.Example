@@ -8,11 +8,11 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="d777c38c-cec5-4631-964e-4afb06956c23"
+    Name="b5d8f7ae-ce06-423f-8127-b7207b0f8b66"
     Publisher="CN=jenst"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="d777c38c-cec5-4631-964e-4afb06956c23" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b5d8f7ae-ce06-423f-8127-b7207b0f8b66" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>MyApp</DisplayName>
