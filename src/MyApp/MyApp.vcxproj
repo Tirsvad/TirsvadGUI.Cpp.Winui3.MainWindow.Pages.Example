@@ -7,7 +7,7 @@
     <CppWinRTOptimized>true</CppWinRTOptimized>
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{ae2dc16b-576e-4b83-9c82-4efeba2b52cd}</ProjectGuid>
+    <ProjectGuid>{76dc635f-ef06-4e5d-bc0c-1ed707ff34ad}</ProjectGuid>
     <ProjectName>MyApp</ProjectName>
     <RootNamespace>MyApp</RootNamespace>
     <!--
@@ -93,7 +93,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
     <ClCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(GeneratedFilesDir)Pages;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
